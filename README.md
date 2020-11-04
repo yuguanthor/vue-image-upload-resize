@@ -1,3 +1,10 @@
+# NOTE ON USE
+Resize is not working if outputFormat="file"
+
+use following props to force image size not more than 500KB
+
+:maxSize="0.5"
+
 # Vue Image Upload and Resize
 A Vue.js Plugin Component for client-side image upload with optional resizing and exif-based autorotate.
 
